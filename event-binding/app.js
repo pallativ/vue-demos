@@ -23,8 +23,11 @@ const app = Vue.createApp({
             this.name = event.target.value + " " + lastName;
         },
         submitForm(event) {
-            event.preventDefault();
+            //event.preventDefault();
             console.log("Form Submitted");
+        },
+        confirm() {
+            console.log("Enter key is pressed.");
         },
     },
 });

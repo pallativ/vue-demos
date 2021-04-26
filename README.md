@@ -46,5 +46,7 @@ Adding Vue JS CDN or download and add script tag.
             console.log("Form Submitted");
         }
         or
-        v-on:submit.prevent
+        v-on:submit.prevent - Prevent submitting the form.
+        v-on:click.right - only react to mouse right click
+        v-on:keyup:enter - This is fire the method only on ENTER is pressed
     ```

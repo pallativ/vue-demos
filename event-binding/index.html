@@ -34,15 +34,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <input v-on:input="setName" type="text">
+                    <input v-on:input="setName" v-on:keyup.enter="confirm" type="text">
                     <input v-on:input="setNameV2($event, 'Pallati')" type="text">
+                      <input v-on:input="setName" type="text">
                 </div>
                 <div class="col-lg-12">
                     <p>Your Name: {{name}}</p>
                 </div>
             </div>
             <div class="row">
-                <form v-on:submit="submitForm">
+                <form v-on:submit.prevent="submitForm">
                     <div class="col-lg-12"> 
                         <input type="text"/>
                     </div>
