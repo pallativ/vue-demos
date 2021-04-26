@@ -8,15 +8,15 @@ Adding Vue JS CDN or download and add script tag.
 
 # Important binding attributes.
 
--   v-bind
+-   **v-bind**
     ```
         <p>Learn more <a v-bind:href="vueLink">about me</a></p>
     ```
--   v-html
+-   **v-html**
     ```
         <p v-html="htmlContent"></p>
     ```
--   v-for
+-   **v-for**
     ```
         <tr v-for="item in list>
             <td>{{item.name}}</td>
