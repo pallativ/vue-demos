@@ -23,6 +23,12 @@ Adding Vue JS CDN or download and add script tag.
             <td>{{item.phone}}</td>
         </tr>
     ```
+-   **v-once** - it will preserve the initial value.
+
+-   **v-model** - Two way binding, it is equilant to **v-on:input & v-bind:value**
+    ```
+        <input type="text" v-model='name'>
+    ```
 
 # Event binding
 
