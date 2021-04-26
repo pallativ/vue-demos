@@ -39,4 +39,12 @@ Adding Vue JS CDN or download and add script tag.
 
 # Event Modifiers
 
--
+-   The following code modifies the event
+    ```
+        submitForm(event) {
+            event.preventDefault();
+            console.log("Form Submitted");
+        }
+        or
+        v-on:submit.prevent
+    ```
