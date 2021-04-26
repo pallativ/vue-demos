@@ -23,3 +23,10 @@ Adding Vue JS CDN or download and add script tag.
             <td>{{item.phone}}</td>
         </tr>
     ```
+
+# Event binding
+
+-   **v-on:click**
+    ```
+        <button v-on:click="add(5)" class="btn btn-primary">Add</button>
+    ```
