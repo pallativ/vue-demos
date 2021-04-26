@@ -6,7 +6,7 @@ This repo contains the examples for Vue JS.
 
 Adding Vue JS CDN or download and add script tag.
 
-# Important binding attributes.
+# Binding attributes.
 
 -   **v-bind**
     ```
@@ -36,3 +36,7 @@ Adding Vue JS CDN or download and add script tag.
         <input v-on:input="setName" type="text">
         <input v-on:input="setNameV2($event, 'Pallati')" type="text">
     ```
+
+# Event Modifiers
+
+-

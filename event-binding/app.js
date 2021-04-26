@@ -22,6 +22,10 @@ const app = Vue.createApp({
         setNameV2(event, lastName) {
             this.name = event.target.value + " " + lastName;
         },
+        submitForm(event) {
+            event.preventDefault();
+            console.log("Form Submitted");
+        },
     },
 });
 app.mount("#user-goals");
