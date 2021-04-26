@@ -30,3 +30,9 @@ Adding Vue JS CDN or download and add script tag.
     ```
         <button v-on:click="add(5)" class="btn btn-primary">Add</button>
     ```
+-   **v-on:input**
+    Below code contains two version of setName, one without **$event** argument, other is explicitly passing **$event**.
+    ```
+        <input v-on:input="setName" type="text">
+        <input v-on:input="setNameV2($event, 'Pallati')" type="text">
+    ```
